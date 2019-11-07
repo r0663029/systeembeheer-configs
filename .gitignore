@@ -7,3 +7,4 @@
 !ethers
 !ntp.conf
 !bind/
+!apache2/
