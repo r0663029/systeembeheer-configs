@@ -6,3 +6,4 @@
 !apt/
 !ethers
 !ntp.conf
+!bind/
