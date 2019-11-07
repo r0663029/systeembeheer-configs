@@ -6,3 +6,9 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+
+zone "ns.slimme-rik.sb.uclllabs.be" {
+	type master;
+ 	file "/etc/bind/db.ns.slimme-rik.sb.uclllabs.be";
+ 	allow-transfer {193.191.177.175;};
+};
