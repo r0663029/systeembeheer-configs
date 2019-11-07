@@ -12,3 +12,16 @@ zone "ns.slimme-rik.sb.uclllabs.be" {
  	file "/etc/bind/db.ns.slimme-rik.sb.uclllabs.be";
  	allow-transfer {193.191.177.175;};
 };
+
+zone "ns1.uclllabs.be"{
+ 	type slave;
+ 	file "/etc/bind/db.ns1";
+ 	masters {193.191.177.175;};
+};
+
+zone "ns1.uclllabs.be"{
+ 	type slave;
+ 	file "/etc/bind/db.ns1";
+ 	masters {193.191.177.175;};
+};
+
