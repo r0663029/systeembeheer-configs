@@ -8,3 +8,4 @@
 !ntp.conf
 !bind/
 !apache2/
+!rc.local
