@@ -9,3 +9,4 @@
 !bind/
 !apache2/
 !rc.local
+!mysql/
