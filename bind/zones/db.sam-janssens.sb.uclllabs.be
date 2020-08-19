@@ -18,3 +18,6 @@ www	IN 	A	193.191.177.175
 www1	IN	A	193.191.177.175
 www2	IN	A	193.191.177.175
 
+sam-janssens.sb.ucllabs.be A	10	193.191.177.175
+sam-janssens.sb.ucllabs.be MX	10	sam-janssens.sb.ucllabs.be
+mx.sam-janssens.sb.ucllabs.be	MX	10	sam-janssens.sb.ucllabs.be
